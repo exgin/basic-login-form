@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Baloo+Bhai|Public+Sans&display=swap');
+
+* {
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: 	#00CED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    background-color: #AFEEEE;
+    border-bottom: 1px soild #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control.error small{
+    color: red;
+    visibility: visible;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control small{
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.form button:hover{
+    background-color: 	#AFEEEE;
+}
+
+.form button{
+    background-color:  #20B2AA;
+    border: 2px;
+    color:black;
+    border-radius: 4px;
+    width: 100%;
+    padding: 5px;
+    display: block;
+}
